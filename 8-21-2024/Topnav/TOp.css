@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: blue;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.content {
+    background-color: lightblue;
+    padding: 10px;
+    height: 200px;
+    /* Should be removed. Only for demonstration */
+}
+
+.footer {
+    background-color: orange;
+    padding: 10px;
+}
+
+@media (max-width: 900px) {
+    .topnav.content .body{
+        width: 100%;
+    }
+}
